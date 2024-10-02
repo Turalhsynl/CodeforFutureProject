@@ -138,35 +138,24 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    
-    background-color: #fff;
-}
+
+
 
 header {
     padding: 20px;
-    /* border-bottom: 2px solid #000; */
     text-align: left;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-
     width: 112px;
-height: 66px;
-top: 21px;
-left: 121px;
-gap: 0px;
-opacity: 0px;
-
+    height: 66px;
+    top: 21px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 main {
@@ -174,8 +163,7 @@ main {
 }
 
 .course-info {
-    
-     display: flex; 
+    display: flex; 
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -183,25 +171,20 @@ main {
 .info-item1, .info-item2, .info-item3 {
     display: flex;
     align-items: center;
-    
     font-family: Roboto;
-
-text-align: left;
-
+    text-align: left;
 }
 
 
 
-.info-item1{
-    
-width: 130px;
-height: 32px;
-top: 187px;
-left: 151px;
-gap: 0px;
-opacity: 0px;
-
-    }  
+.info-item1{    
+    width: 130px;
+    height: 32px;
+    top: 187px;
+    left: 151px;
+    gap: 0px;
+    opacity: 0px;
+}  
 .info-item2{
     width: 130px;
     height: 32px;
@@ -209,8 +192,8 @@ opacity: 0px;
     left: 338px;
     gap: 0px;
     opacity: 0px;
-    
 }
+
 .info-item3{
     width: 130px;
 height: 32px;
@@ -222,33 +205,30 @@ opacity: 0px;
 }
 
  .online{
-    
     width: 22px;
-height: 21px;
-top: 184px;
-left: 121px;
-gap: 0px;
-opacity: 0px;
-
+    height: 21px;
+    top: 184px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
  }  
  
  .hours{
     width: 22px;
-height: 22px;
-top: 183px;
-left: 306px;
-gap: 0px;
-opacity: 0px;
-
+    height: 22px;
+    top: 183px;
+    left: 306px;
+    gap: 0px;
+    opacity: 0px;
  }
+
  .calendar{
     width: 20px;
-height: 22px;
-top: 183px;
-left: 467px;
-gap: 0px;
-opacity: 0px;
-
+    height: 22px;
+    top: 183px;
+    left: 467px;
+    gap: 0px;
+    opacity: 0px;
  }
 
 
@@ -263,54 +243,48 @@ opacity: 0px;
 }
 
 h1 {
-    
-    
-   margin: 0;
+    margin: 0;
     margin-bottom: 20px; 
-
     width: 628px;
-height: 190px;
-top: 248px;
-left: 122px;
-gap: 0px;
-opacity: 0px;
-
-font-family: Roboto Slab;
-font-size: 80px;
-font-weight: 700;
-line-height: 81.11px;
-text-align: left;
-
-
-
+    height: 190px;
+    top: 248px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81.11px;
+    text-align: left;
 }
 
 p {
-    
     margin: 0;
     margin-bottom: 20px; 
     width: 414px;
-height: 62px;
-top: 427px;
-left: 122px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
+    height: 62px;
+    top: 427px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 
 
 
 }
 
 .quote {
-  
+    
     background-color: #2b4b7e;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
+    margin-left: 600px;
+    margin-top: 300px;
 }
 
 .quote .author {
@@ -319,32 +293,30 @@ text-align: left;
 }
 .quote{
     width: 483.63px;
-height: 200.02px;
-top: 666.62px;
-left: 409.39px;
-gap: 0px;
-border-radius: 5px 0px 0px 0px;
-opacity: 0px;
-
+    height: 200.02px;
+    top: 666.62px;
+    left: 409.39px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
 }
 .see{
     width: 430.59px;
-height: 113px;
-top: 685.88px;
-left: 435.42px;
-gap: 0px;
-opacity: 0px;
+    height: 113px;
+    top: 685.88px;
+    left: 435.42px;
+    gap: 0px;
+    opacity: 0px;
 
 
 }
 .author{
     width: 280.5px;
-height: 45.64px;
-top: 821px;
-left: 594px;
-gap: 0px;
-opacity: 0px;
-
+    height: 45.64px;
+    top: 821px;
+    left: 594px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .image-content img {
@@ -354,33 +326,27 @@ opacity: 0px;
 }
 
 @media (max-width: 991px) and (min-width:320px) {
-   
     .online{
         width: 75.29px;
         height: 18.53px;
         top: 118.14px;
         left: 87.45px;
-       
-        
-
     }
     .hours{
         width: 75.29px;
-height: 18.53px;
-top: 118.14px;
-left: 195.76px;
-
-
-    
+        height: 18.53px;
+        top: 118.14px;
+        left: 195.76px;
      }
      .calendar{
         width: 75.29px;
-height: 18.53px;
-top: 118.14px;
-left: 289.58px;
-
-
-    
+        height: 18.53px;
+        top: 118.14px;
+        left: 289.58px;
      }
 
-    }
+     .quote {
+        margin-left: 70px;
+        margin-top: 400px;
+     }
+}
