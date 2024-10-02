@@ -202,12 +202,125 @@ margin-right: 100px;
 }
 
 /* ---------------------------------------------------- */
+/* Khumar */
+
+.container-Khumar {
+    max-width: 1700px;
+}
+
+
+.course-section {
+    background-color: #b8d2cc;
+    width: 1700px;
+    margin-left: -90px;
+    padding-right: 180px;
+}
+
+.course-title {
+    font-size: 32px; 
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.course-price-label {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.course-price {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info-block {
+    max-width: 45%;
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.info-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    width: 290px;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.footer-bottom {
+    margin-top: 200px;
+    font-size: 14px;
+}
+
+.course-details {
+    margin: 200px;
+    padding-top: 100px;
+}
 /* Leyla */
 
 
 /* Leyla's first section .....................*/
+
 *{
-    font-family: Roboto Slab;
     margin: 0;
     padding: 0;
 }
@@ -357,128 +470,6 @@ font-family: "Roboto", sans-serif;
 margin: 0% 5% 1%;
 }
 .cardsMobile{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1%;
-    margin-left: 20%;
-}
-}
-
-/* ------------------- */
-
-/* Khumar */
-
-.container-Khumar {
-    max-width: 1700px;
-}
-
-
-.course-section {
-    background-color: #b8d2cc;
-    width: 1700px;
-    margin-left: -90px;
-    padding-right: 180px;
-}
-
-.course-title {
-    font-size: 32px; 
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.course-price-label {
-    font-size: 20px;
-    color: #000;
-    margin-bottom: 5px;
-}
-
-.course-price {
-    font-size: 48px;
-    color: #000;
-    margin-bottom: 40px;
-}
-
-.course-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.info-block {
-    max-width: 45%;
-}
-
-.info-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.info-description {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
-    width: 290px;
-}
-
-
-.footer {
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 90px;
-    padding-bottom: 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-left {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo {
-    margin-bottom: 15px;
-    width: 80px;
-}
-
-.social-icons a {
-    margin-right: 15px;
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.contact-icon {
-    margin-right: 10px;
-    width: 20px;
-}
-
-.footer-bottom {
-    margin-top: 200px;
-    font-size: 14px;
-}
-
-.course-details {
-    margin: 200px;
-    padding-top: 100px;
-}
     width: 100wh;
     display: flex;
     flex-direction: column;
