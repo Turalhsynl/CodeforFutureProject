@@ -241,6 +241,7 @@ text-align: left;
 .info {
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .info-block {
@@ -263,9 +264,12 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
+}
+.social-icons{
+    padding-top: 6px;
 }
 .footer-left {
     padding-top: 50px;
@@ -300,56 +304,90 @@ footer {
 .footer-bottom{
 width: 230px;
 height: 40px;
-top: 6512px;
-left: 121px;
-gap: 0px;
-opacity: 0px;
 font-family: 'Roboto', sans-serif;
 font-size: 18px;
-font-weight: 400;
-line-height: 18.25px;
-text-align: left;
-flex-direction: column;
+padding-top: 150px;
+margin: 0px 0px 0px 112px;
 }
 
-@media (max-width: 1440px) {
-    .testimonial {
-        flex-direction: column;
+@media (max-width: 991px) and (min-width:320px) {
+    .container, .containerr {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .content-textt{
+        margin: 179px 456px 288px 347px;
         align-items: center;
+}
+    .kurs{
+        width: 224px;
+        height: 63px;
+        top: 3972px;
+        left: 34px;
+        gap: 0px;
+        opacity: 0px;
+    font-size: 26px;
+    }
+    .giymet {
+        font-size: 12px;
+        width: 79.22px;
+height: 14.91px;
+top: 4057.33px;
+left: 33.85px;
+gap: 0px;
+opacity: 0px;
+
+    }
+    .price{
+        font-size: 37px;
+        width: 224.13px;
+height: 84.34px;
+top: 4071.3px;
+left: 33.85px;
+gap: 0px;
+opacity: 0px;
+
+    }
+    .dla{
+        font-size: 12px;
+    }
+    .nol{
+        font-size: 10px;
+    }
+
+    .details {
         text-align: center;
     }
 
-    .testimonial-text {
-        max-width: 100%;
-    }
-
-    .info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-block {
-        margin-bottom: 20px;
-    }
-
     .footer-content {
+        max-width: 743px;
         flex-direction: column;
+        align-items: flex-start;
     }
-}
 
-@media (max-width: 834px) {
-    .price {
-        font-size: 20px;
-    }
-    .course-info h1, .course-details h2 {
-        font-size: 20px;
-    }
-}
-@media (max-width: 375px) {
-    .footer-content {
-        text-align: center;
-    }
-    .social {
+    .social-icons {
         margin-top: 10px;
+        justify-content: flex-start;
     }
+
+    .footer-left, .footer-right {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .contact-info {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        text-align: left;
+    }
+    
+}
+
+@media (max-width: 1279px) and (min-width:992px) {
+    .content-textt{
+        align-items: center;
+    }
+   
 }
