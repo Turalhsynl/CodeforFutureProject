@@ -315,6 +315,147 @@ margin-right: 100px;
     margin: 200px;
     padding-top: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .container-Khumar {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    .course-section {
+        width: 100%;
+        padding-right: 15px;
+        margin-left: 0;
+    }
+
+    .course-details {
+        margin: 50px 0;
+        padding-top: 50px;
+    }
+
+    .course-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .course-price {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .course-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-block {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+    }
+
+    .contact-info {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .container-Khumar {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .course-section {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .course-details {
+        margin: 100px 50px;
+        padding-top: 70px;
+    }
+
+    .course-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .course-price {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .course-info {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .info-block {
+        max-width: 48%;
+        text-align: left;
+    }
+
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+    }
+}
+
 /* Leyla */
 
 
