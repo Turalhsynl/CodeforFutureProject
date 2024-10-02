@@ -83,6 +83,10 @@ body {
 
 .some_texts {
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -108,6 +112,8 @@ body {
     .details {
         align-items: center;
         flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin-right: 0;
     }
 
@@ -118,6 +124,7 @@ body {
     .header {
         text-align: center;
     }
+
     
 }
 
@@ -139,6 +146,7 @@ body {
 /* Leyla */
 
 *{
+    font-family: Roboto Slab;
     margin: 0;
     padding: 0;
 }
