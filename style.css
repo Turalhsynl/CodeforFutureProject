@@ -136,13 +136,14 @@ body {
     }
 }
 
-/* Leyla */
 
+
+/* Leyla's first section .....................*/
 *{
     margin: 0;
     padding: 0;
 }
-@media (min-width:1200px){
+@media (min-width:1280px){
     .DesktopViewPart{
         display: block;
     }
@@ -193,7 +194,7 @@ margin: 0% 3% 1%;
 }
 }
 
-@media (max-width:1200px){
+@media (max-width: 1279px) and (min-width:992px) {
     .DesktopViewPart{
         display: none;
     }
@@ -243,7 +244,7 @@ margin: 0% 3% 1%;
 }
 }
 
-@media (max-width:600px){
+@media (max-width: 991px) and (min-width:320px){
     .DesktopViewPart{
         display: none;
     }
@@ -288,11 +289,192 @@ font-family: "Roboto", sans-serif;
 margin: 0% 5% 1%;
 }
 .cardsMobile{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1%;
-    margin-left: 20%;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    /* margin-left: 20%; */
 }
 }
 
-/* ------------------- */
+
+/* Leyla's second section ....................... */
+@media (min-width:1280px){
+    .DesktopMain{
+        display: block;
+    }
+    .TabletMain{
+        display: none;
+    }
+    .MobileMain{
+        display: none;
+    }
+.DesktopPart{
+    background-color: #EFEFEF;
+    height: 600px;
+    padding: 5% 5% 5% 10%;
+}
+.DesktopPart>h2{
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    margin-bottom: 4%;
+}
+.DesktopThoughtsOfPeople{
+    background-color: white;
+    width: 58%;
+    border-radius: 30px;
+    height: 370px;
+    padding: 3%;
+    box-shadow: 1px 3px 15px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.DesktopThoughtsOfPeople>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    width: 95%;
+    line-height: 142%;
+  
+}
+.DesktopiconAndNameOfPerson{
+    display: flex;
+}
+.DesktopNameAndMedia>p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 7%;
+}
+.DesktopiconAndNameOfPerson{
+    display: flex;
+    align-items: center;
+    column-gap: 4%;
+}
+.DesktopiconAndNameOfPerson>img{
+    margin-left: -3%;
+}
+}
+
+@media (max-width: 1279px){
+    .DesktopMain{
+        display: none;
+    }
+    .TabletMain{
+        display: block;
+    }
+    .MobileMain{
+        display: none;
+    }
+    .TabletPart{
+        background-color: #EFEFEF;
+        height: 452;
+        padding: 5% 5% 5% 10%;
+    }
+    .TabletPart>h2{
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        margin-bottom: 4%;
+    
+    }
+    .TabletThoughtsOfPeople{
+        background-color: white;
+        width: 50%;
+        border-radius: 18px;
+        height: 195px;
+        padding: 3% 0% 3% 3%;
+        box-shadow: 1px 3px 15px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .TabletThoughtsOfPeople>p{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        width: 96%;
+        line-height: 132%;
+    }
+    .TabletNameAndMedia>p{
+        font-size: 17px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        margin-bottom: 7%;
+    }
+    .TabletNameAndMedia>img{
+        width: 18.53px;
+    }
+    .TableticonAndNameOfPerson{
+        display: flex;
+        align-items: center;
+        column-gap: 5%;
+    }
+    .TableticonAndNameOfPerson>img{
+        width: 23%;
+        margin-left: -3%;
+    }
+}
+
+@media (max-width: 991px){
+    .DesktopMain{
+        display: none;
+    }
+    .TabletMain{
+        display: none;
+    }
+    .MobileMain{
+        display: block;
+    }
+    .MobilePart{
+        background-color: #EFEFEF;
+        height: 360px;       
+        padding: 5% 5% 5% 8%;
+    }
+    .MobilePart>h2{
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        margin-bottom: 6%;
+        width: 100%;
+    }
+    .MobileThoughtsOfPeople{
+        background-color: white;
+        width: 85%;
+        border-radius: 14px;
+        height: 188px;
+        padding: 7% 3% 3% 7%;
+        box-shadow: 1px 3px 15px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .MobileThoughtsOfPeople>p{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        width: 98%;
+        line-height: 135%;
+    }
+    .MobileiconAndNameOfPerson{
+        display: flex;
+        align-items: center;
+    }
+    .MobileNameAndMedia>p{
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        margin-bottom: 7%;
+    }
+    .MobileNameAndMedia>img{
+        width: 18.53px;
+    }
+    .MobileiconAndNameOfPerson>img{
+        width: 80px;
+        margin-left: -3%;
+    }
+}
+/* -------------------------------- */
