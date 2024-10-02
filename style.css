@@ -484,6 +484,7 @@ margin: 0% 5% 1%;
 @media (min-width:1280px){
     .DesktopMain{
         display: block;
+        margin: 0 -90px -90px -90px;
     }
     .TabletMain{
         display: none;
