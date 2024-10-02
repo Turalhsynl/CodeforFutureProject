@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #fff;
-}
-
-.container {
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -18,7 +17,7 @@ body {
 }
 
 .header h1 {
-    font-size: 32px;
+    font-size: 55px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -34,10 +33,11 @@ body {
 }
 
 .content-text p {
-    width: 450px;
-    font-size: 16px;
+    width: 740px;
+    font-size: 24px;
     line-height: 1.6;
     color: #333;
+    margin-top: 20px;
 }
 
 .content-image {
@@ -59,20 +59,19 @@ body {
 }
 
 .details div {
-    text-align: center;
+    text-align: left;
 }
 
 .details h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
 }
 
 .details p {
     margin: 5px 0;
-    width: 150px;
-    font-size: 14px;
-    color: #666;
+    width: 180px;
+    font-size: 18px;
 }
 
 .content-image2 {
@@ -84,8 +83,6 @@ body {
 .some_texts {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -94,16 +91,19 @@ body {
 @media (max-width: 991px) and (min-width:320px) {
     .content {
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .content-text {
-        width: 60%;
         margin-bottom: 20px;
         margin-right: 50px;
         
     }
 
+    .content-text p {
+        max-width: 650px;
+        font-size: 20px;
+    }
     .content-image {
         margin-right: 20px;
         width: 60%;
@@ -119,13 +119,7 @@ body {
 
     .content-image2 {
         display: none; 
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    
+    }  
 }
 
 @media (max-width: 1279px) and (min-width:992px) {
@@ -144,26 +138,21 @@ body {
 }
 
 /* saida */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 .one-saida {
-    font-family: roboto slab;
-    font-weight: 700;
-    size: 55px;
-    line-height: 55.76px
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .three-saida {
-    font-family: roboto;
     font-weight: 700;
     size: 25px;
-    line-height: 0.5px;
+    /* line-height: 0.5px; */
     color: #1e4681;
 }
 
  .p-saida{
-    font-family: roboto;
     font-weight: 400;
     size: 18px;
     line-height: 23.4px;
@@ -171,7 +160,6 @@ body {
 }
 
 ul {
-    font-family: roboto;
     font-weight: 400;
     size: 24px;
     line-height: 36px;
@@ -185,10 +173,36 @@ ul {
 .info-box{
 height: 10%;
 width: 15%;
-margin: 0%;
+margin-bottom: 200px;
+margin-top: 50px;
+margin-right: 100px;
 }
 
+.info-box h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 
+.second {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 991px){
+    .info-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-box {
+        margin-bottom: 80px;
+        width: 300px;
+        height: 48px;
+    }
+    .second {
+        margin-top: 100px;
+    }
+}
+
+/* ---------------------------------------------------- */
 /* Leyla */
 
 *{
