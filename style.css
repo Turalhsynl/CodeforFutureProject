@@ -99,7 +99,6 @@ html {
 @media (max-width: 991px) and (min-width:320px) {
     .content {
         flex-direction: column;
-        /* align-items: center; */
     }
     .content-text {
         margin-bottom: 20px;
@@ -153,7 +152,6 @@ html {
 }
 
 /* saida */
-
 
 .one-saida {
     font-size: 32px;
@@ -216,10 +214,7 @@ margin-right: 100px;
         margin-top: 100px;
     }
 }
-
-/* ---------------------------------------------------- */
 /* Khumar */
-
 .container-Khumar {
     width: 100%;
 }
@@ -335,72 +330,6 @@ margin-right: 100px;
     padding-top: 100px;
 }
 
-/* @media (min-width: 320px) and (max-width: 991px) {
-    .container-Khumar {
-        max-width: 100%;
-    }
-
-    .course-section {
-        width: 100%;
-        padding-right: 15px;
-        margin-left: 0;
-    }
-
-    .course-details {
-        margin: 50px 0;
-        padding-top: 50px;
-    }
-
-    .course-title {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .course-price {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .course-info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-block {
-        max-width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .footer {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 50px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-left, .footer-right {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .social-icons a {
-        margin-right: 10px;
-    }
-
-    .footer-bottom {
-        margin-top: 50px;
-    }
-
-    .contact-info {
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-} */
 
 @media (min-width: 320px) and (max-width: 991px) {
     .course-details {
@@ -425,11 +354,7 @@ margin-right: 100px;
         flex-direction: column;
     }
 }
-
-
 /* Leyla */
-
-
 /* Leyla's first section .....................*/
 
 *{
@@ -485,6 +410,10 @@ margin: 0% 3% 1%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 5%;
+}
+.cardsDesktop div:hover {
+    box-sizing: border-box;
+    border: solid rgb(0, 225, 255) 2px;
 }
 }
 
@@ -588,10 +517,8 @@ margin: 0% 5% 1%;
     flex-direction: column;
     align-items: center;
     gap: 35px;
-    /* margin-left: 20%; */
 }
 }
-
 
 /* Leyla's second section ....................... */
 @media (min-width:1280px){
@@ -609,6 +536,7 @@ margin: 0% 5% 1%;
     background-color: #EFEFEF;
     height: 600px;
     padding: 5% 5% 5% 10%;
+    padding-bottom: 700px;
 }
 .DesktopPart>h2{
     font-weight: 700;
@@ -772,7 +700,6 @@ margin: 0% 5% 1%;
         margin-left: -3%;
     }
 }
-/* -------------------------------- */
 
 /* Gunay  */
 
@@ -783,79 +710,269 @@ margin: 0% 5% 1%;
     .tabForm{
         display: none;
     }
+    .mobForm{
+display: none;
+    }
 .Desk{
     display: flex;
     flex-direction: column;
     height: 1040px;
     row-gap: 5%;
 }
-header>img{
+.Desk>header>img{
     width: 112px;
 }
-.threeOptions{
+.DeskthreeOptions{
     display: flex;
     font-size: 20px;
     font-weight: 400;
     font-family: "Roboto Slab", serif;
 }
-.threeOptions>div{
+.DeskthreeOptions>div{
     display: flex;
     gap: 6%;
     width: 23%;
 }
-.mainAndPhoto{
+.DeskmainAndPhoto{
     display: flex;
 }
-.mainView h2{
+.DeskmainView h2{
     font-size: 80px;
     font-weight: 700;
     font-family: "Roboto Slab", serif;
     width: 80%;
     line-height: 90%;
 }
-.mainView>p{
+.DeskmainView>p{
     font-size: 20px;
     font-weight: 400;
     font-family: "Roboto", serif;
     width: 49%;
 }
-.mainView{
+.DeskmainView{
  display: flex;
  flex-direction: column;
  row-gap: 10%;   
  width: 58%;
 }
-.Photo{
+.DeskPhoto{
     padding-top: 4%;
 }
-.Cardview>div{
+.DeskCardview>div{
     background-color: #1E4681;
-    width: 50%;
+    width: 40%;
     color: white;
     border-radius: 5px;
-    height: 200px;
+    height: 160px;
     padding: 2%;
 }
-.Cardview{
+.DeskCardview{
     display: flex;
     justify-content: center;
     width: 80%;
 }
-.Words{
+.DeskWords{
     font-size: 25px;
     font-weight: 400;
     font-family: "Roboto Slab", serif; 
     width: 85%;  
 }
-.authorrr{
+.Deskauthor{
     text-align: end;
     font-size: 20px;
     font-weight: 400;
     font-family: "Roboto", serif; 
 }
-.crucial{
+.Deskcrucial{
     display: flex;
     flex-direction: column;
     row-gap: 62px;
+}
+}
+@media (max-width: 1279px){
+
+    .deskForm{
+        display: none;
+    }
+    .tabForm{
+        display: block;
+    }
+    .mobForm{
+display: none;
+    }
+.Tab{
+    display: flex;
+    flex-direction: column;
+    height: 1040px;
+    row-gap: 5%;
+}
+.Tab>header>img{
+    width: 65px;
+}
+.TabthreeOptions{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+}
+.TabthreeOptions>div{
+    display: flex;
+    gap: 6%;
+    width: 23%;
+    align-items: end;
+}
+.TabmainAndPhoto{
+    display: flex;
+}
+.TabmainView h2{
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 63%;
+    line-height: 90%;
+}
+.TabmainView>p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    width: 44%;
+    line-height: 150%;
+}
+.TabmainView{
+ display: flex;
+ flex-direction: column;
+ row-gap: 10%;   
+ width: 58%;
+}
+.TabPhoto>img{
+    padding-top: 12%;
+    width: 85%;
+}
+.TabCardview>div{
+    background-color: #1E4681;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    height: 105px;
+    padding: 2%;
+}
+.TabCardview{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.TabWords{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif; 
+    width: 73%;  
+}
+.Tabauthor{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+.Tabcrucial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+}
+}
+@media (max-width: 991px){
+    .deskForm{
+        display: none;
+    }
+    .tabForm{
+        display: none;
+    }
+    .mobForm{
+display: block;
+    }
+.Mob{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 725px;
+    row-gap: 5%;
+}
+.Mob>header>img{
+    width: 53px;
+}
+.MobthreeOptions{
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    column-gap: 3%;
+}
+.MobthreeOptions img{
+    width: 14%;
+}
+.MobthreeOptions>div{
+    display: flex;
+    gap: 6%;
+    width: 23%;
+    align-items: end;
+}
+.MobmainAndPhoto{
+    display: flex;
+    flex-direction: column;
+}
+.MobmainView h2{
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 100vw;
+    line-height: 90%;
+}
+.MobmainView>p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    width: 68%;
+    line-height: 150%;
+}
+.MobmainView{
+ display: flex;
+ flex-direction: column;
+ row-gap: 22px;
+}
+.MobPhoto>img{
+    width: 168px;
+}
+.MobPhoto{
+    display: flex;
+    justify-content: flex-end;
+}
+.MobCardview>div{
+    background-color: #1E4681;
+    color: white;
+    border-radius: 5px;
+    height: 90px;
+    padding: 6%;
+}
+.MobCardview{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.MobWords{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif; 
+    width: 90%;  
+}
+.Mobauthor{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+.Mobcrucial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+    width: 100%;
 }
 }
