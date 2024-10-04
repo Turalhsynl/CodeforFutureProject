@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
     background-color: #fff;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.section {
+    margin-left: 100px;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 .header {
@@ -15,7 +25,7 @@ body {
 }
 
 .header h1 {
-    font-size: 32px;
+    font-size: 55px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -31,10 +41,11 @@ body {
 }
 
 .content-text p {
-    width: 450px;
-    font-size: 16px;
+    width: 740px;
+    font-size: 24px;
     line-height: 1.6;
     color: #333;
+    margin-top: 20px;
 }
 
 .content-image {
@@ -56,20 +67,19 @@ body {
 }
 
 .details div {
-    text-align: center;
+    text-align: left;
 }
 
 .details h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
 }
 
 .details p {
     margin: 5px 0;
-    width: 150px;
-    font-size: 14px;
-    color: #666;
+    width: 180px;
+    font-size: 18px;
 }
 
 .content-image2 {
@@ -80,6 +90,8 @@ body {
 
 .some_texts {
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -87,35 +99,41 @@ body {
 @media (max-width: 991px) and (min-width:320px) {
     .content {
         flex-direction: column;
-        align-items: center;
     }
-
     .content-text {
-        width: 60%;
         margin-bottom: 20px;
         margin-right: 50px;
-        
     }
-
+    .section {
+        margin-left: 50px;
+    }
+    .content-text p {
+        width: 330px;
+        font-size: 12px;
+    }
     .content-image {
-        margin-right: 20px;
+        margin: auto;
         width: 60%;
     }
-
+    .some_texts p{
+        font-size: 12px;
+    }
+    .some_texts h2 {
+        font-size: 16px;
+    }
     .details {
         align-items: center;
         flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin-right: 0;
     }
-
     .content-image2 {
         display: none; 
+    }  
+    .header h1{
+        font-size: 30px;
     }
-
-    .header {
-        text-align: center;
-    }
-    
 }
 
 @media (max-width: 1279px) and (min-width:992px) {
@@ -131,4 +149,830 @@ body {
     .details {
         margin-right: 0;
     }
+}
+
+/* saida */
+
+.one-saida {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.three-saida {
+    font-weight: 700;
+    size: 25px;
+    /* line-height: 0.5px; */
+    color: #1e4681;
+}
+
+ .p-saida{
+    font-weight: 400;
+    size: 18px;
+    line-height: 23.4px;
+    color: #000000
+}
+
+ul {
+    font-weight: 400;
+    size: 24px;
+    line-height: 36px;
+    color: #000000
+}
+
+.info-boxes {
+    display: flex;
+
+}
+.info-box{
+height: 10%;
+width: 15%;
+margin-bottom: 200px;
+margin-top: 50px;
+margin-right: 100px;
+}
+
+.info-box h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.second {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 991px){
+    .info-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-box {
+        margin-bottom: 80px;
+        width: 300px;
+        height: 48px;
+    }
+    .second {
+        margin-top: 100px;
+    }
+}
+/* Khumar */
+.container-Khumar {
+    width: 100%;
+}
+
+
+.course-section {
+    background-color: #b8d2cc;
+    width: 100%;
+}
+
+.course-title {
+    font-size: 32px; 
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.course-price-label {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.course-price {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info-block {
+    max-width: 45%;
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.info-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    width: 290px;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.logo {
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.footer-bottom {
+    margin-top: 200px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.course-details {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-top: 90px;
+    padding-top: 100px;
+}
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .course-details {
+        margin: 30px;
+    }
+    .course-title {
+        width: 85%;
+    }
+    .course-price {
+        font-size: 48px;
+    }
+    .info-block p {
+        font-size: 12px;
+        width: 105%;
+    }
+    .social-icons {
+        display: flex;
+        margin-right: 200px;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* Leyla */
+/* Leyla's first section .....................*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width:1280px){
+    .DesktopViewPart{
+        display: block;
+    }
+    .TabletViewPart{
+        display: none;
+    }
+    .MobileViewPart{
+        display: none;
+    }
+.DesktopView{
+        padding: 3%;
+        margin-bottom: 10%;
+    }
+.DesktopView>h2{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 5%;
+    margin-left: 3%;
+
+}
+.cardsDesktop>div{
+    width: 90%;
+    border: 1px solid white;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    box-shadow: 1px 3px 15px rgba(128, 128, 128, 0.772);
+}
+.cardsDesktop img{
+    width: 100%;
+}
+.cardsDesktop h3{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 30px;
+margin: 2% 3% 8%;
+}
+.cardsDesktop p{
+    font-size: 25px;
+    font-weight: 400;
+font-family: "Roboto", sans-serif;
+margin: 0% 3% 1%;
+}
+.cardsDesktop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+}
+.cardsDesktop div:hover {
+    box-sizing: border-box;
+    border: solid rgb(0, 225, 255) 2px;
+}
+}
+
+@media (max-width: 1279px) and (min-width:992px) {
+    .DesktopViewPart{
+        display: none;
+    }
+    .TabletViewPart{
+        display: block;
+    }
+    .MobileViewPart{
+        display: none;
+    }
+.TabletView{
+    padding: 3% 3% 3% 7%;
+    margin-bottom: 10%;
+}
+.TabletView>h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 8%;
+    margin-left: 3%;
+}
+.cardsTablet>div{
+    width: 90%;
+    border: 1px solid white;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    box-shadow: 1px 3px 15px rgba(128, 128, 128, 0.772);
+}
+.cardsTablet img{
+    width: 100%;
+}
+.cardsTablet h3{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 17px;
+margin: 2% 3% 8%;
+}
+.cardsTablet p{
+    font-size: 14px;
+    font-weight: 400;
+font-family: "Roboto", sans-serif;
+margin: 0% 3% 1%;
+}
+.cardsTablet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+}
+}
+
+@media (max-width: 991px) and (min-width:320px){
+    .DesktopViewPart{
+        display: none;
+    }
+    .TabletViewPart{
+        display: none;
+    }
+    .MobileViewPart{
+        display: block;
+    }
+.MobileView{
+    padding: 3% 3% 3% 7%;
+    margin-bottom: 10%;
+}
+.MobileView>h2{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom:15%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.cardsMobile>div{
+    width: 75%;
+    border: 1px solid white;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    box-shadow: 1px 3px 15px rgba(128, 128, 128, 0.772);
+}
+.cardsMobile img{
+    width: 100%;
+}
+.cardsMobile h3{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 17px;
+margin: 2% 3% 8%;
+}
+.cardsMobile p{
+    font-size: 14px;
+    font-weight: 400;
+font-family: "Roboto", sans-serif;
+margin: 0% 5% 1%;
+}
+.cardsMobile{
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+}
+
+/* Leyla's second section ....................... */
+@media (min-width:1280px){
+    .DesktopMain{
+        display: block;
+        margin: 0 -90px -90px -90px;
+    }
+    .TabletMain{
+        display: none;
+    }
+    .MobileMain{
+        display: none;
+    }
+.DesktopPart{
+    background-color: #EFEFEF;
+    height: 600px;
+    padding: 5% 5% 5% 10%;
+    padding-bottom: 700px;
+}
+.DesktopPart>h2{
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    margin-bottom: 4%;
+}
+.DesktopThoughtsOfPeople{
+    background-color: white;
+    width: 58%;
+    border-radius: 30px;
+    height: 370px;
+    padding: 3%;
+    box-shadow: 1px 3px 15px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.DesktopThoughtsOfPeople>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    width: 95%;
+    line-height: 142%;
+  
+}
+.DesktopiconAndNameOfPerson{
+    display: flex;
+}
+.DesktopNameAndMedia>p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 7%;
+}
+.DesktopiconAndNameOfPerson{
+    display: flex;
+    align-items: center;
+    column-gap: 4%;
+}
+.DesktopiconAndNameOfPerson>img{
+    margin-left: -3%;
+}
+}
+
+@media (max-width: 1279px){
+    .DesktopMain{
+        display: none;
+    }
+    .TabletMain{
+        display: block;
+    }
+    .MobileMain{
+        display: none;
+    }
+    .TabletPart{
+        background-color: #EFEFEF;
+        height: 452;
+        padding: 5% 5% 5% 10%;
+    }
+    .TabletPart>h2{
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        margin-bottom: 4%;
+    
+    }
+    .TabletThoughtsOfPeople{
+        background-color: white;
+        width: 50%;
+        border-radius: 18px;
+        height: 195px;
+        padding: 3% 0% 3% 3%;
+        box-shadow: 1px 3px 15px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .TabletThoughtsOfPeople>p{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        width: 96%;
+        line-height: 132%;
+    }
+    .TabletNameAndMedia>p{
+        font-size: 17px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        margin-bottom: 7%;
+    }
+    .TabletNameAndMedia>img{
+        width: 18.53px;
+    }
+    .TableticonAndNameOfPerson{
+        display: flex;
+        align-items: center;
+        column-gap: 5%;
+    }
+    .TableticonAndNameOfPerson>img{
+        width: 23%;
+        margin-left: -3%;
+    }
+}
+
+@media (max-width: 991px){
+    .DesktopMain{
+        display: none;
+    }
+    .TabletMain{
+        display: none;
+    }
+    .MobileMain{
+        display: block;
+    }
+    .MobilePart{
+        background-color: #EFEFEF;
+        height: 360px;       
+        padding: 5% 5% 5% 8%;
+    }
+    .MobilePart>h2{
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        font-size: 32px;
+        margin-bottom: 6%;
+        width: 100%;
+    }
+    .MobileThoughtsOfPeople{
+        background-color: white;
+        width: 85%;
+        border-radius: 14px;
+        height: 188px;
+        padding: 7% 3% 3% 7%;
+        box-shadow: 1px 3px 15px gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .MobileThoughtsOfPeople>p{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        width: 98%;
+        line-height: 135%;
+    }
+    .MobileiconAndNameOfPerson{
+        display: flex;
+        align-items: center;
+    }
+    .MobileNameAndMedia>p{
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        margin-bottom: 7%;
+    }
+    .MobileNameAndMedia>img{
+        width: 18.53px;
+    }
+    .MobileiconAndNameOfPerson>img{
+        width: 80px;
+        margin-left: -3%;
+    }
+}
+
+/* Gunay  */
+
+@media (min-width: 1280px){
+    .deskForm{
+        display: block;
+    }
+    .tabForm{
+        display: none;
+    }
+    .mobForm{
+display: none;
+    }
+.Desk{
+    display: flex;
+    flex-direction: column;
+    height: 1040px;
+    row-gap: 5%;
+}
+.Desk>header>img{
+    width: 112px;
+}
+.DeskthreeOptions{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+}
+.DeskthreeOptions>div{
+    display: flex;
+    gap: 6%;
+    width: 23%;
+}
+.DeskmainAndPhoto{
+    display: flex;
+}
+.DeskmainView h2{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 80%;
+    line-height: 90%;
+}
+.DeskmainView>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    width: 49%;
+}
+.DeskmainView{
+ display: flex;
+ flex-direction: column;
+ row-gap: 10%;   
+ width: 58%;
+}
+.DeskPhoto{
+    padding-top: 4%;
+}
+.DeskCardview>div{
+    background-color: #1E4681;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    height: 160px;
+    padding: 2%;
+}
+.DeskCardview{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.DeskWords{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif; 
+    width: 85%;  
+}
+.Deskauthor{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+.Deskcrucial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+}
+}
+@media (max-width: 1279px){
+
+    .deskForm{
+        display: none;
+    }
+    .tabForm{
+        display: block;
+    }
+    .mobForm{
+display: none;
+    }
+.Tab{
+    display: flex;
+    flex-direction: column;
+    height: 1040px;
+    row-gap: 5%;
+}
+.Tab>header>img{
+    width: 65px;
+}
+.TabthreeOptions{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+}
+.TabthreeOptions>div{
+    display: flex;
+    gap: 6%;
+    width: 23%;
+    align-items: end;
+}
+.TabmainAndPhoto{
+    display: flex;
+}
+.TabmainView h2{
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 63%;
+    line-height: 90%;
+}
+.TabmainView>p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    width: 44%;
+    line-height: 150%;
+}
+.TabmainView{
+ display: flex;
+ flex-direction: column;
+ row-gap: 10%;   
+ width: 58%;
+}
+.TabPhoto>img{
+    padding-top: 12%;
+    width: 85%;
+}
+.TabCardview>div{
+    background-color: #1E4681;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    height: 105px;
+    padding: 2%;
+}
+.TabCardview{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.TabWords{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif; 
+    width: 73%;  
+}
+.Tabauthor{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+.Tabcrucial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+}
+}
+@media (max-width: 991px){
+    .deskForm{
+        display: none;
+    }
+    .tabForm{
+        display: none;
+    }
+    .mobForm{
+display: block;
+    }
+.Mob{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 725px;
+    row-gap: 5%;
+}
+.Mob>header>img{
+    width: 53px;
+}
+.MobthreeOptions{
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    column-gap: 3%;
+}
+.MobthreeOptions img{
+    width: 14%;
+}
+.MobthreeOptions>div{
+    display: flex;
+    gap: 6%;
+    width: 23%;
+    align-items: end;
+}
+.MobmainAndPhoto{
+    display: flex;
+    flex-direction: column;
+}
+.MobmainView h2{
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    width: 100vw;
+    line-height: 90%;
+}
+.MobmainView>p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    width: 68%;
+    line-height: 150%;
+}
+.MobmainView{
+ display: flex;
+ flex-direction: column;
+ row-gap: 22px;
+}
+.MobPhoto>img{
+    width: 168px;
+}
+.MobPhoto{
+    display: flex;
+    justify-content: flex-end;
+}
+.MobCardview>div{
+    background-color: #1E4681;
+    color: white;
+    border-radius: 5px;
+    height: 90px;
+    padding: 6%;
+}
+.MobCardview{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.MobWords{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif; 
+    width: 90%;  
+}
+.Mobauthor{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+.Mobcrucial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+    width: 100%;
+}
 }
